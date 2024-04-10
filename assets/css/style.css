@@ -1,3 +1,8 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*============================
     CSS Index         
 ==============================
@@ -794,7 +799,7 @@ input[type="checkbox"] {
   background-size: cover;
   z-index: 3;
   position: relative;
-  background-image: url(../images/bg/title-bar-01-bg.jpg);
+  background-image: url(../images/hero/Itservices.jpg);
 }
 
 @media only screen and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -14215,10 +14220,11 @@ blockquote {
 =      40. About Us pages Css           =
 =======================================*/
 .about-us-bg {
-  background-image: url(../images/bg/contact-us-01-hero-bg.jpg);
+  background-image: url(../images/hero/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  /* height: 100vh; */
 }
 
 .banner-space {
